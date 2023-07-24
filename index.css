@@ -1,0 +1,26 @@
+*{
+background: orangered;
+}
+
+.button{
+    background: white;
+    height:100px;
+    width:100px;
+    margin:100px auto;
+    padding:25px;
+    box-sizing: border-box;
+    animation-name:puls;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+}
+
+@keyframes puls{
+    0%{
+      transform: scale(1);
+    }
+      100%{
+      transform: scale(1);
+      background: green;
+    }
+}
